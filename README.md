@@ -20,7 +20,6 @@ To get a local copy up and running, follow these simple steps:
 ```sh
 git clone https://github.com/ndmunoz10/wenia_test.git
 ```
-Replace `[repo_link]` with the actual link to the repository.
 
 2. **Install dependencies and run code generator**
 
