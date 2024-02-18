@@ -40,6 +40,7 @@ dart run build_runner build --delete-conflicting-outputs
 make build
 ```
 This will generate the necessary code and classes to run the project.
+
 3. **Run the app**
    To launch the app on a connected emulator or physical device, run:
 ```sh
