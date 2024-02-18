@@ -1,0 +1,21 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - lib/**/*.config.dart
+    - lib/**/*.g.dart
+    - lib/**/*.gr.dart
+    - lib/**/*.freezed.dart
+    - lib/core/flavors.dart
+    - lib/l10n/**
+    - lib/gen/**
+    - test/**/*.mocks.dart
+    - packages/**
+  errors:
+    invalid_annotation_target: ignore
+    missing_required_param: error
+    missing_return: error
+    must_be_immutable: error
+
+linter:
+  rules:
